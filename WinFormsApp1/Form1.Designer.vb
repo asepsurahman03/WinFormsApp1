@@ -67,18 +67,18 @@ Partial Class Form1
         ' BukaFileToolStripMenuItem
         ' 
         BukaFileToolStripMenuItem.Name = "BukaFileToolStripMenuItem"
-        BukaFileToolStripMenuItem.Size = New Size(270, 34)
+        BukaFileToolStripMenuItem.Size = New Size(183, 34)
         BukaFileToolStripMenuItem.Text = "Buka File"
         ' 
         ' ToolStripMenuItem2
         ' 
         ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        ToolStripMenuItem2.Size = New Size(267, 6)
+        ToolStripMenuItem2.Size = New Size(180, 6)
         ' 
         ' KeluarToolStripMenuItem
         ' 
         KeluarToolStripMenuItem.Name = "KeluarToolStripMenuItem"
-        KeluarToolStripMenuItem.Size = New Size(270, 34)
+        KeluarToolStripMenuItem.Size = New Size(183, 34)
         KeluarToolStripMenuItem.Text = "Keluar"
         ' 
         ' ProssesToolStripMenuItem
@@ -92,7 +92,7 @@ Partial Class Form1
         ' 
         KonfersiWarnaToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {BlueToolStripMenuItem, GrayToolStripMenuItem, GreenToolStripMenuItem, NegativeToolStripMenuItem, RedToolStripMenuItem})
         KonfersiWarnaToolStripMenuItem.Name = "KonfersiWarnaToolStripMenuItem"
-        KonfersiWarnaToolStripMenuItem.Size = New Size(270, 34)
+        KonfersiWarnaToolStripMenuItem.Size = New Size(205, 34)
         KonfersiWarnaToolStripMenuItem.Text = "Citra Warna"
         ' 
         ' BlueToolStripMenuItem
@@ -128,19 +128,19 @@ Partial Class Form1
         ' ToolStripMenuItem3
         ' 
         ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        ToolStripMenuItem3.Size = New Size(267, 6)
+        ToolStripMenuItem3.Size = New Size(202, 6)
         ' 
         ' PenajamanToolStripMenuItem
         ' 
         PenajamanToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {PenajamanToolStripMenuItem1})
         PenajamanToolStripMenuItem.Name = "PenajamanToolStripMenuItem"
-        PenajamanToolStripMenuItem.Size = New Size(270, 34)
+        PenajamanToolStripMenuItem.Size = New Size(205, 34)
         PenajamanToolStripMenuItem.Text = "Thresold"
         ' 
         ' PenajamanToolStripMenuItem1
         ' 
         PenajamanToolStripMenuItem1.Name = "PenajamanToolStripMenuItem1"
-        PenajamanToolStripMenuItem1.Size = New Size(270, 34)
+        PenajamanToolStripMenuItem1.Size = New Size(199, 34)
         PenajamanToolStripMenuItem1.Text = "Penajaman"
         ' 
         ' PictureBox1
@@ -156,17 +156,16 @@ Partial Class Form1
         ' 
         StatusStrip1.ImageScalingSize = New Size(24, 24)
         StatusStrip1.Items.AddRange(New ToolStripItem() {ToolStripStatusLabel1})
-        StatusStrip1.Location = New Point(0, 621)
+        StatusStrip1.Location = New Point(0, 625)
         StatusStrip1.Name = "StatusStrip1"
-        StatusStrip1.Size = New Size(1455, 32)
+        StatusStrip1.Size = New Size(1455, 28)
         StatusStrip1.TabIndex = 3
         StatusStrip1.Text = "StatusStrip1"
         ' 
         ' ToolStripStatusLabel1
         ' 
         ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        ToolStripStatusLabel1.Size = New Size(392, 25)
-        ToolStripStatusLabel1.Text = "Asep Surahman Sulaeman TI20F (20200040151)"
+        ToolStripStatusLabel1.Size = New Size(0, 21)
         ' 
         ' PictureBox2
         ' 
