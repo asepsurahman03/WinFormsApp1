@@ -40,7 +40,9 @@ Partial Class Form1
         PictureBox1 = New PictureBox()
         StatusStrip1 = New StatusStrip()
         ToolStripStatusLabel1 = New ToolStripStatusLabel()
+        ToolStripStatusLabel2 = New ToolStripStatusLabel()
         PictureBox2 = New PictureBox()
+        ToolStripStatusLabel3 = New ToolStripStatusLabel()
         MenuStrip1.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         StatusStrip1.SuspendLayout()
@@ -155,10 +157,10 @@ Partial Class Form1
         ' StatusStrip1
         ' 
         StatusStrip1.ImageScalingSize = New Size(24, 24)
-        StatusStrip1.Items.AddRange(New ToolStripItem() {ToolStripStatusLabel1})
-        StatusStrip1.Location = New Point(0, 625)
+        StatusStrip1.Items.AddRange(New ToolStripItem() {ToolStripStatusLabel1, ToolStripStatusLabel2, ToolStripStatusLabel3})
+        StatusStrip1.Location = New Point(0, 621)
         StatusStrip1.Name = "StatusStrip1"
-        StatusStrip1.Size = New Size(1455, 28)
+        StatusStrip1.Size = New Size(1455, 32)
         StatusStrip1.TabIndex = 3
         StatusStrip1.Text = "StatusStrip1"
         ' 
@@ -166,6 +168,11 @@ Partial Class Form1
         ' 
         ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
         ToolStripStatusLabel1.Size = New Size(0, 21)
+        ' 
+        ' ToolStripStatusLabel2
+        ' 
+        ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
+        ToolStripStatusLabel2.Size = New Size(0, 21)
         ' 
         ' PictureBox2
         ' 
@@ -175,6 +182,12 @@ Partial Class Form1
         PictureBox2.Size = New Size(675, 510)
         PictureBox2.TabIndex = 4
         PictureBox2.TabStop = False
+        ' 
+        ' ToolStripStatusLabel3
+        ' 
+        ToolStripStatusLabel3.Name = "ToolStripStatusLabel3"
+        ToolStripStatusLabel3.Size = New Size(392, 25)
+        ToolStripStatusLabel3.Text = "Asep Surahman Sulaeman TI20F (20200040151)"
         ' 
         ' Form1
         ' 
@@ -216,4 +229,6 @@ Partial Class Form1
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PenajamanToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PenajamanToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ToolStripStatusLabel2 As ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel3 As ToolStripStatusLabel
 End Class
